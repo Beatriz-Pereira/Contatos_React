@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Contatos_React/static/css/main.29669ee7.css",
+    "main.js": "/Contatos_React/static/js/main.5e77bcfe.js",
+    "static/media/woman.JPG": "/Contatos_React/static/media/woman.27579b0d9ac8524aa58e.JPG",
+    "static/media/men.JPG": "/Contatos_React/static/media/men.a7b63dd7194fb084bece.JPG",
+    "index.html": "/Contatos_React/index.html",
+    "main.29669ee7.css.map": "/Contatos_React/static/css/main.29669ee7.css.map",
+    "main.5e77bcfe.js.map": "/Contatos_React/static/js/main.5e77bcfe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29669ee7.css",
+    "static/js/main.5e77bcfe.js"
+  ]
+}
