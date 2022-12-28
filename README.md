@@ -2,4 +2,4 @@
 
 📰 https://beatriz-pereira.github.io/Contatos_React/
 
-📌 Desenvolvido apenas praticar
+📌 Sendo desenvolvido apenas para praticar
