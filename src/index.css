@@ -1,0 +1,159 @@
+* {
+  margin-top:100;
+  margin: 0;
+  padding: 0;
+  /* font-family: sans-serif; */
+  font-family: 'Satisfy', cursive;
+  color: rgb(31, 59, 63);
+}
+body{
+  background: #f3f3f3;
+}
+.navbar{
+  text-align: center;
+  background-color: rgb(158, 208, 255);
+}
+.navbar h1{
+  padding: 5px;
+  font-family: 'Satisfy', cursive;
+  color: aliceblue;
+  font-weight: 550;
+
+}
+.card{
+  background-color: aliceblue;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10px;
+  padding: 30px;
+  border: 1px solid;
+  border-color: #c2c0c0;
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: 0px 5px 10px rgba(79, 109, 134, 0.75);
+  padding: 40px;
+  text-align: center;
+}
+
+.btnAction{
+  background-color: rgb(158, 208, 255);
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  font-family: sans-serif;
+}
+
+.input_text{
+  border: none;
+  border-bottom: 2px solid rgb(158, 208, 255);
+  width: 100%;
+  padding: 10px 5px 1px;
+  background-color: aliceblue;
+  font-size: 1em;
+  color: rgb(31, 59, 63);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+
+.form_input{
+  text-align: left;
+  width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  color: rgb(31, 59, 63);
+  font-family: 'Satisfy', cursive;
+}
+
+input[type=text]:focus {
+  outline: 0;
+  background-image: linear-gradient(aliceblue,rgba(182, 248, 248, 0.397));
+}
+
+.list_group li{
+  list-style-type: none;
+  border-top: 1px solid rgb(158, 208, 255);
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  transition: all 0.5s;
+  text-align: left;
+}
+
+.contact_info{
+  display: inline-block;
+  margin-left: 15px;
+  padding: 5px;
+}
+
+.list_group ul{
+  border-bottom: 1px solid rgb(158, 208, 255);
+  border-left: 1px solid rgb(158, 208, 255);
+  border-right: 1px solid rgb(158, 208, 255);
+  width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list_group li:hover{
+  background-image: linear-gradient(aliceblue,rgba(182, 248, 248, 0.397))
+}
+
+.contact_icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 20px;
+  display: inline-block;
+  border: 1px solid rgb(158, 208, 255);
+}
+
+.star_icon{
+  display: inline-block;
+  text-align: end;
+}
+
+.text_info{
+  font-family: sans-serif; 
+  font-size: 12px;
+}
+
+@media only screen and (max-device-width: 900px) {
+  .card{
+    background-color: aliceblue;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5px;
+    padding: 15px;
+    text-align: center;
+  }
+  .btnAction{
+    width: 90%;
+  }
+  .form_input{
+    width: 80%;
+  }
+}
+
+@media only screen and (max-device-width: 632px) {
+  .btnAction{
+    width: 80%;
+  }
+  .form_input{
+    width: 80%;
+  }
+}
